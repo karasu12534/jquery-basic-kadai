@@ -61,6 +61,14 @@ footer{
     background-color: rgb(244, 79, 79);
     text-align: center;
 }
+#cases{
+    margin-top: 40px;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
 @media screen and (max-width: 768px ) {
     h2{
         font-size: 30px;
