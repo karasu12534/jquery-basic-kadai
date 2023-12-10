@@ -1,8 +1,8 @@
-//関数2乗（定数）
-const hyaku = (num,num2) =>{
-    console.log(num ** num2)
+//2乗を戻り値として返す
+const hyaku = (num) =>{
+    return num**2;
 }
 
-//引数の引き渡し
-hyaku(10,2)
+//関数の戻り値を出力
+console.log(hyaku(10));
 
